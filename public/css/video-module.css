@@ -1,0 +1,69 @@
+.modal{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    transition: all 0.3s linear;
+    display: none;
+}
+.hidden{
+    overflow: hidden;
+}
+.video-modal{
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    width: 880px;
+    background-color: red;
+}
+.video-modal video{
+    width: 880px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-modal .close{
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    color: #ffffff;
+    font-size: 25px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.video-modal .play,.video-modal .pause{
+    position: absolute;
+    top: 160px;
+    right: 420px;
+    color: #ffffff;
+    font-size: 50px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    opacity: 0;
+}
+.video-modal:hover .play,.video-modal:hover .pause{
+    opacity: 1;
+}
+.video-modal .pause{
+    display: none;
+}
+.video-modal .play:hover{
+    color: #F56600;
+}
+.video-modal .pause:hover{
+    color: #F56600;
+}
+.video-modal .close:hover{
+    color: #F56600;
+}

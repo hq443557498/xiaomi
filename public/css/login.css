@@ -1,0 +1,178 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+input{
+    border:1px solid #ddd;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: #999999;
+}
+a:hover{
+    color:#f56600;
+}
+#login_header{
+    margin: 0 auto;
+    width: 1130px;
+}
+#login{
+    background: #14212A;
+}
+#login>.banner{
+    width: 1130px;
+    height: 588px;
+    margin: 0 auto;
+    background: url("../img/banner.jpg");
+    position: relative;
+}
+#login_box{
+    width: 400px;
+    height: 524px;
+    position: absolute;
+    right: 0;
+    top: 32px;
+    background: #ffffff;
+    padding: 31px;
+    text-align: center;
+}
+#login_box .active{
+    color: #F56600;
+}
+.nav_tabs{
+    padding-bottom: 25px;
+}
+.nav_tabs span{
+    border:1px solid #666666;
+    margin: 0 29px;
+}
+.nav_tabs a{
+    font-size: 24px;
+    color: #666666;
+}
+.nav_tabs a:hover{
+    color:#f56600;
+}
+.login_module input{
+    width: 336px;
+    height: 48px;
+    padding: 13px 15px;
+    margin-bottom: 15px;
+}
+#login-btn{
+    background: #f56600;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    height: 50px;
+}
+.dis_box{
+    height: 21px;
+    margin-bottom: 15px;
+    color: #F56600;
+    text-align: left;
+}
+.dis_box>i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../img/sprite_login.gif") no-repeat 0 -69px;
+    margin-right: 5px;
+    display: none;
+}
+input.fail{
+    border: 1px solid #F56600;
+}
+.login_reg{
+    font-size: 14px;
+}
+.login_reg span{
+    border: 1px solid #bbb;
+    margin: 0 15px;
+}
+.login_module fieldset{
+    border:none;
+    border-top: 1px solid #ddd;
+    color:#aaa;
+    margin-top: 80px;
+    font-size: 14px;
+}
+.other_login{
+    margin-top: 20px;
+}
+.other_login a {
+     display: block;
+     float: left;
+     width: 30px;
+     height: 30px;
+     margin: 0 27px;
+     background: #999999;
+     border-radius: 50%;
+ }
+.other_login i{
+    display: block;
+}
+.other_login a:nth-child(1) i{
+    background: url("../img/icons_type.png") no-repeat -19px -2px;
+    margin: 6px 6px 0px 6px;
+    width: 18px;
+    height: 18px;
+}
+.other_login a:nth-child(1):hover{
+    background-color: #0288D1;
+}
+.other_login a:nth-child(2) i{
+     background: url("../img/icons_type.png") no-repeat -38px -1px;
+    margin: 6px 6px 0px 6px;
+    width: 18px;
+    height: 18px;
+ }
+.other_login a:nth-child(2):hover{
+    background-color: #D32F2F;
+}
+.other_login a:nth-child(3) i{
+    width: 27px;
+    height: 18px;
+    margin: 6px 1px 6px 2px;
+    background: url("../img/icons_type.png") no-repeat -56px 0px;
+}
+.other_login a:nth-child(3):hover{
+    background-color: #0288D1;
+}
+.other_login a:nth-child(4) i{
+    width: 23px;
+    height: 18px;
+    margin: 6px 3px 6px 4px;
+    background: url("../img/icons_type.png") no-repeat -84px 0px;
+}
+.other_login a:nth-child(4):hover{
+    background-color: #00D20D;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+footer .lang-select-list{
+    overflow: hidden;
+    display: inline-block;
+}
+footer .lang-select-list li{
+    float: left;
+    font-size: 14px;
+}
+.lang-select-list a{
+    display: inline-block;
+    padding: 0 10px;
+}
+footer .nf-intro{
+    margin: 20px 0 50px 0;
+}
+footer .nf-intro span{
+    font-size: 14px;
+    color: #999;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/cssReset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/public-nav.css">
+    <link rel="stylesheet" href="css/shopping_cart.css">
+</head>
+<body>
+<header></header>
+<section>
+    <div class="public-nav"></div>
+    <div class="shopping_cart">
+        <div class="list-head">
+            <div class="col-check">
+                <input type="checkbox" id="check-all">全选
+            </div>
+            <div class="col-img"></div>
+            <div class="col-name">商品名称</div>
+            <div class="col-price">单价</div>
+            <div class="col-num">数量</div>
+            <div class="col-total">小计</div>
+            <div class="col-action">操作</div>
+        </div>
+        <div class="cart-detail">
+            <div class="item-row">
+                <div class="col-check">
+                    <input type="checkbox">
+                </div>
+                <div class="col-img"><img src="img/hm4-80.jpg" alt=""></div>
+                <div class="col-name"><a href="#">小米电视4A 55英寸 黑色 55英寸</a></div>
+                <div class="col-price">2749元</div>
+                <div class="col-num"><a href="#" class="reduce">-</a><input type="text" value="1" name="sid" class="num"><a href="#" class="add">+</a></div>
+                <div class="col-total">2749元</div>
+                <div class="col-action"><span class="glyphicon glyphicon-remove"></span></div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <div class="cart-total-left"><a href="index.html">继续购物</a><i></i>共&nbsp;<span class="num-total">0</span>&nbsp;件商品，已选择&nbsp;<span class="num-choose">0</span>&nbsp;件</div>
+            <button type="button" class="submit-btn">去结算</button>
+            <div class="price-total">合计（不含运费）：<span>0.00</span>元</div>
+        </div>
+    </div>
+</section>
+<footer></footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/public-nav.js"></script>
+<script src="js/shopping_cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>注册账号</title>
+    <link rel="stylesheet" href="css/cssReset.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="layout">
+<div class="logo">
+    <a href="index.html" class="milogo"></a>
+</div>
+    <h1>注册小米账号</h1>
+    <div class="regbox">
+        <form id="mireg">
+            <lable>
+                <input type="text" name="uname" id="uname" placeholder="请输入手机号">
+
+            </lable>
+            <p class="phone"><i></i><span>格式错误，请输入中国大陆手机号</span></p>
+            <lable>
+                <input type="password" name="upwd" id="upwd" placeholder="请输入密码">
+            </lable>
+            <p class="password"><i></i><span>密码必须由6-12位数字加字母组成</span></p>
+            <p>
+                <input type="button" class="submit_btn" value="立即注册">
+            </p>
+            <p class="explain">点击“立即注册”，即表示您同意并愿意遵守小米 <a href="agreement.html" target="_blank">用户协议</a> 和 <a href="Privacy_policy.html" target="_blank">隐私政策</a></p>
+        </form>
+    </div>
+    <div class="success">
+        <div class="content">
+            <h1 class="msg">注册成功</h1>
+            <h2><span class="second">3</span>秒后自动跳转至登录页面</h2>
+            <h3><a href="login.html">手动跳转请点击此处</a></h3>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <ul class="lang-select-list">
+        <li><a href="#" class="lang-select-li current">简体</a>|</li>
+        <li><a href="#">繁体</a>|</li>
+        <li><a href="#">English</a>|</li>
+        <li><a href="#">常见问题</a></li>
+    </ul>
+    <p class="nf-intro">
+        <span>小米公司版权所有-京ICP备10046444-
+            <a href="#">
+                <span><img src="img/ghs.png" alt="">
+                </span>
+                京公网安备11010802020134号
+            </a>-京ICP证110507号
+        </span>
+    </p>
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

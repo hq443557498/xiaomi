@@ -1,0 +1,204 @@
+.nav_details_shopping{
+    height: 50px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    z-index: 100;
+    width: 100%;
+}
+.shopping_bar{
+    width: 1226px;
+    margin: 0 auto;
+    height: 50px;
+    position: relative;
+}
+.shopping_bar h2{
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.shopping_bar .nav_s{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.shopping_bar .nav_s span{
+    border-left: 1px solid #b0b0b0;
+}
+.shopping_bar .nav_s a{
+    margin: 0 5px;
+}
+.details_shopping{
+    width: 1226px;
+    margin: 50px auto;
+    position: relative;
+    top: 0;
+}
+.img_content{
+    width: 606px;
+}
+.details_shopping_img{
+    float: left;
+    position: relative;
+    width: 560px;
+    height: 560px;
+    margin: 0 auto;
+}
+.details_shopping_module{
+    width: 606px;
+    float: right;
+    min-height: 500px;
+    position: relative;
+    margin-left: 14px;
+}
+.details_shopping_module p{
+    margin: 5px 0;
+}
+.details_shopping_module .title{
+    color: #f56600;
+}
+.details_shopping_module .f-title{
+    font-style: normal;
+    color: #b0b0b0;
+}
+.details_shopping_module .p-price{
+    color: #f56600;
+    font-size: 16px;
+}
+.details_shopping_module h3{
+    margin: 10px  0;
+}
+.details_shopping_module .module{
+    min-height: 80px;
+    overflow: hidden;
+}
+.details_shopping_module .module a{
+    display: block;
+    width: 298px;
+    height: 78px;
+    float: left;
+    line-height: 78px;
+    border: 1px solid #000;
+    margin: 15px 0 0 4px ;
+    padding: 0 27px;
+    font-size: 16px;
+}
+.details_shopping_module .module a span:first-child{
+    display: inline-block;
+    width: 184px;
+
+}
+.details_shopping_module .module a.active{
+    border: 1px solid #f56600;
+    color: #f56600;
+}
+.details_shopping_module .color-list{
+    overflow: hidden;
+}
+.details_shopping_module .color-list a{
+    display: block;
+    width: 298px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    border: 1px solid #000;
+    margin: 15px 0 0 4px ;
+    padding: 0 27px;
+    font-size: 16px;
+    text-align: center;
+}
+.details_shopping_module a:hover{
+    color: #333;
+}
+.details_shopping_module .color-list a.active{
+    border: 1px solid #f56600;
+    color: #f56600;
+}
+.details_shopping_module .color-list a.disabled{
+    border: 1px dotted #000;
+    opacity: 0.5;
+}
+.details_shopping_module .choose{
+    margin: 10px 0;
+    padding: 10px;
+}
+.details_shopping_module .choose span:nth-child(3){
+    margin-left: 10px;
+}
+.details_shopping_module .choose span:last-child{
+    float: right;
+}
+.details_shopping_module .total{
+    color: #f56600;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.details_shopping_module .add-btn{
+    width: 300px;
+    height: 54px;
+    border: none;
+    background-color: #f56600;
+    color: #ffffff;
+    outline: none;
+}
+.shopping_img_silder li.active{
+    opacity: 1;
+}
+.shopping_img_silder li{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s linear;
+}
+.shopping_img_silder img{
+    width: 560px;
+    height: 560px;
+}
+.slider_operation a{
+    display: block;
+    width: 41px;
+    height: 69px;
+    position: absolute;
+}
+.slider_operation a.next{
+    left: 0;
+    top:45%;
+    background: url("../img/icon-slides.png") no-repeat -83px;
+}
+.slider_operation a.next:hover{
+    background: url("../img/icon-slides.png") no-repeat 1px;
+}
+.slider_operation a.prev {
+    top:45%;
+    right:0;
+    background: url("../img/icon-slides.png") no-repeat -123px;
+}
+.slider_operation a.prev:hover{
+    background: url("../img/icon-slides.png") no-repeat -41px;
+}
+.slider_num{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.slider_num li{
+    display: inline-block;
+}
+.slider_num a{
+    display: inline-block;
+    height: 3px;
+    background-color: rgba(0,0,0,0.3);
+    width: 60px;
+    transition:  all .5s linear;
+}
+.slider_num a.active{
+    background-color: rgba(0,0,0,0.5);
+}
+.product_details{
+    width: 1226px;
+    margin: 0 auto;
+    text-align: center;
+}

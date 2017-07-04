@@ -1,0 +1,81 @@
+.layout{
+    width: 855px;
+    position:relative;
+    margin: 100px auto;
+    min-height: 500px;
+    text-align: center;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.milogo{
+    display: block;
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    background:url("../img/milogo.png") no-repeat 0 0;
+    cursor: default;
+}
+.regbox{
+    width: 322px;
+    margin: 0 auto;
+    padding: 30px 0;
+    height: 370px;
+    text-align: left;
+}
+#mireg input{
+    height: 40px;
+    width: 322px;
+    border: 1px solid #DDDDDD;
+    outline: none;
+    padding: 10px;
+}
+#mireg lable{
+    display: block;
+    margin: 10px 0;
+}
+#mireg i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../img/sprite_login.gif") no-repeat 0 -69px;
+    margin-right: 5px;
+}
+.phone,.password{
+    display: none;
+    font-size: 14px;
+}
+#mireg p{
+    color: #f56600;
+}
+.submit_btn{
+    background: #f56600;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#mireg .explain{
+    font-size: 12px;
+    color: #aaa;
+}
+.success{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    border-radius: 5px;
+}
+.success .content{
+    width: 800px;
+    background-color: #fff;
+    position: relative;
+    top:25%;
+}
+.success .content h1{
+    color: #00D20D;
+}

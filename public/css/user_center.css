@@ -1,0 +1,105 @@
+.order-nav{
+    width: 234px;
+    padding: 36px 48px;
+    float: left;
+}
+.order-nav h3{
+    margin-bottom: 10px;
+}
+.order-nav li{
+    padding: 5px 0;
+}
+.order-nav a.active{
+  color: #f56600;
+}
+.order-detail{
+    float: right;
+    width: 978px;
+    padding: 36px 48px;
+}
+.order-detail h2{
+    color: #777;
+}
+.order-detail h2 span{
+    font-size: 10px;
+    color: #aaa;
+}
+.my-order-nav{
+    height: 56px;
+    margin: 30px 0;
+}
+.my-order-nav li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    border-right: 1px solid #DDDDDD;
+}
+.my-order-nav li:last-child{
+    border-right:none;
+}
+.my-order-nav a.active{
+    color: #f56600;
+}
+.order-lists>li{
+    padding: 30px 0;
+    border: 1px solid #999;
+    margin: 10px;
+}
+.caption{
+    padding:0 20px 20px  20px;
+    border-bottom: 1px solid #aaaaaa;
+    overflow: hidden;
+}
+.caption .order-status{
+    padding-bottom: 15px;
+}
+.caption-info{
+    float: left;
+}
+.caption-info span{
+    border-right: 1px solid #777;
+    margin: 0 5px ;
+}
+.caption-price{
+    float: right;
+}
+.caption-price b{
+    font-size: 20px;
+}
+.order-detail-list{
+    padding:30px 25px 0;
+}
+.order-detail-list img{
+    width: 80px;
+    height: 80px;
+}
+.order-detail-list li{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.order-detail-list li a:first-child{
+    float: left;
+}
+.order-detail-text{
+    float: left;
+    margin: 20px;
+}
+.order-detail-text p{
+    margin: 3px;
+}
+.order-page{
+    width: 100%;
+    text-align: center;
+}
+.page{
+    width: 30px;
+    text-align: center;
+    outline: none;
+}
+.order-page span{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.order-page span:hover{
+    color: #f56600;
+}

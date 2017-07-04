@@ -1,0 +1,117 @@
+.shopping_cart{
+    width: 1226px;
+    margin: 0 auto;
+    min-height: 500px;
+    line-height: 70px;
+}
+.list-head{
+    overflow: hidden;
+}
+.list-head>div{
+    height: 70px;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+}
+.item-row{
+    width: 1226px;
+    margin:8px 0;
+    height: 86px;
+}
+.item-row>div{
+    height: 86px;
+    float: left;
+    text-align: center;
+    line-height: 86px;
+}
+.col-check{
+    width: 110px;
+}
+.col-img{
+    width: 127px;
+}
+.col-img img{
+    width: 80px;
+    height: 80px;
+}
+.col-name{
+    width: 380px;
+
+}
+.col-num{
+    width: 150px;
+}
+.col-num a{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    line-height: 36px;
+}
+.col-num input{
+    text-align: center;
+    width: 72px;
+    height: 38px;
+    border-left: none;
+    border-right:none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+}
+.col-price{
+    width: 159px;
+}
+.col-total{
+    width: 201px;
+}
+.col-action{
+    width: 80px;
+}
+.col-action span{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+.col-action span:hover{
+    cursor: pointer;
+    background-color: #f56600;
+    color: #ffffff;
+}
+.cart-total{
+    margin-top: 50px;
+}
+.submit-btn{
+    width: 201px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #f56600;
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 18px;
+    float: right;
+    margin-left: 50px;
+}
+.price-total{
+    color: #f56600;
+    float: right;
+    font-size: 16px;
+    line-height: 50px;
+}
+.price-total span{
+    font-size: 30px;
+}
+.cart-total-left{
+    float: left;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.cart-total-left i{
+    margin: 0 15px;
+    border-left: 1px solid #DDDDDD;
+}
+.cart-total-left span{
+    color: #f56600;
+}
